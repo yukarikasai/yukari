@@ -116,7 +116,7 @@ header .site-title span
     font-size: 4.2rem;
     display: block;
 
-    color: #3dc469;
+    color: #002AC4;
 }
 header .profile-icon
 {
@@ -145,7 +145,7 @@ section h2
 
 #skills
 {
-    background-color: #f84c33;
+    background-color: #ffe152;
 }
 #skills .container
 {
@@ -172,9 +172,11 @@ section h2
             border-radius: 4px;
     background-color: #fdfcf6;
 }
+
 #skills i
 {
     font-size: 4.5rem;
+
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -182,110 +184,21 @@ section h2
     height: 80px;
     margin-bottom: 5px;
     padding-top: 15px;
-    text-align: center;
-    color: #fff;
-    -webkit
-    
-    #works
-{
-    padding-bottom: 0;
-}
-#works h2
-{
-    margin-bottom: 50px;
-}
-#works .works-box
-{
-    float: left;
-    width: 33.33333%;
-    height: 100%;
-}
 
-#works .works-box a
-{
-    position: relative;
-    display: block;
-}
-#works .works-box a .works-box-inner
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    height: 100%;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .7);
-}
-#works .works-box a .works-box-inner div
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 40%;
-    margin: auto;
-    padding: 10px 20px;
-}
-#works .works-box a .works-box-inner h3
-{
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin: 0 0 5px;
-}
-#works .works-box a .works-box-inner small
-{
-    font-size: 1rem;
-    display: block;
-    margin-bottom: 15px;
-}
-#works .works-box a .works-box-inner .button-readmore
-{
-    font-size: 1rem;
-    font-weight: bold;
-    display: block;
-    width: 180px;
-    margin: auto;
-    padding: 5px 0;
     text-align: center;
-    color: #fff;
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
-    background-color: #3dc469;
-}
-#works .works-box a .works-box-inner .button-readmore:hover
-{
-    background-color: #539c22;
-}
-#works .works-box a:hover .works-box-inner
-{
-    display: block;
-    width: 100%;
-}
-#works .works-box img
-{
-    display: block;
-    max-width: 100%;
-}
 
-#works::after
-{
-    display: block;
-    clear: both;
-    content: '';
-}
--border-radius: 50%;
+    color: #fff;
+    -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background-color: #3dc469;
+    background-color: #0027C4;
 }
 #skills h3
 {
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #3dc469;
+    color: #002AC4;
 }
 
 #works
@@ -378,6 +291,96 @@ section h2
     content: '';
 }
 
+#works
+{
+    padding-bottom: 0;
+}
+#works h2
+{
+    margin-bottom: 50px;
+}
+#works .works-box
+{
+    float: left;
+    width: 33.33333%;
+    height: 100%;
+}
+
+#works .works-box a
+{
+    position: relative;
+    display: block;
+}
+#works .works-box a .works-box-inner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
+#works .works-box a .works-box-inner div
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    margin: auto;
+    padding: 10px 20px;
+}
+#works .works-box a .works-box-inner h3
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+#works .works-box a .works-box-inner small
+{
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 15px;
+}
+#works .works-box a .works-box-inner .button-readmore
+{
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 180px;
+    margin: auto;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #002AC4;
+}
+#works .works-box a .works-box-inner .button-readmore:hover
+{
+    background-color: #0025ab;
+}
+#works .works-box a:hover .works-box-inner
+{
+    display: block;
+    width: 100%;
+}
+#works .works-box img
+{
+    display: block;
+    max-width: 100%;
+}
+
+#works::after
+{
+    display: block;
+    clear: both;
+    content: '';
+}
+
 #contact ul
 {
     margin-top: 60px;
@@ -416,11 +419,11 @@ section h2
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background-color: #3dc469;
+    background-color: #002AC4;
 }
 #contact ul a:hover
 {
-    background-color: #539c22;
+    background-color: #001f91;
 }
 
 footer
@@ -428,5 +431,5 @@ footer
     padding: 10px 0;
     text-align: center;
     color: #fff;
-    background-color: #337df8;
+    background-color: #78a7f2;
 }
